@@ -27,6 +27,10 @@ $(document).ready(function() {
         
         $('.quoteBox').css("background-color", colorChange[randomColorChange]);
 
+
+        randomQuote = "\"" + quotes[randomQuoteNumber][0] + "\"";
+        randomAuthor = "\"" + quotes[randomQuoteNumber][1] + "\"";
+
         $('#randomQuote').text(quotes[randomQuoteNumber][0]);
         $('#randomAuthor').text(quotes[randomQuoteNumber][1]);
   }
