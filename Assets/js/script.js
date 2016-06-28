@@ -11,10 +11,10 @@ $(document).ready(function() {
 
   function randomQuote2 () {
     var quotes = {
-          1: ['If a man does his best, what else is there?', 'Gen. George S. Patton'],
-          2: ['Give me chastity and continence, but not yet.', 'Saint Augustine'],
-          3: ['You can avoid reality, but you cannot avoid the consequences of avoiding reality.', 'Ayn Rand'],
-          4: ['I have always depended on the kindness of strangers.', 'A Streetcar Named Desire']
+          1: ['Life is what happens to us and how we react to it.' , 'Dennis P. Kimbro'],
+          2: ['There is no royal road to anything. One thing at a time, all things in succession. That which grows fast, withers as rapidly. That which grows slowly, endures.', 'Josiah Gilbert Holland'],
+          3: ['Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.', 'William James'],
+          4: ['When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me.', 'Erma Bombeck']
         };
         
         
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 
         randomQuote = "\"" + quotes[randomQuoteNumber][0] + "\"";
-        randomAuthor = "\"" + quotes[randomQuoteNumber][1] + "\"";
+        randomAuthor = "\"" + quotes[randomQuoteNumber][1 ] + "\"";
 
         $('#randomQuote').text(quotes[randomQuoteNumber][0]);
         $('#randomAuthor').text(quotes[randomQuoteNumber][1]);
