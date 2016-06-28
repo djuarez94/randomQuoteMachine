@@ -196,7 +196,7 @@ $('#twitterShare').on("click", function() {
     name: 'David\'s Positive Quote Machine',
     link: 'https://djuarez94.github.io/randomQuoteMachine/',
     picture: 'http://www.motivateplay.com/wp-content/uploads/2013/04/motivation.jpg',
-    caption: 'Generate random positive and motivational quotes!',
+    caption: 'Generate random positive and motivational quotes with just a click away!',
     description: "Having a hard day? Or you feel as tho you are close to giving up? Well don't! Use my Positive Quote Machine to turn that negativity into positivity.",
     message: ""
     });
