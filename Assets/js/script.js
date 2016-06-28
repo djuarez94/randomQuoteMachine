@@ -193,7 +193,7 @@ $('#twitterShare').on("click", function() {
     FB.ui(
     {
     method: 'feed',
-    name: 'Random Quote Machine',
+    name: 'David\'s Positive Quote Machine',
     link: 'https://djuarez94.github.io/randomQuoteMachine/',
     picture: 'http://www.motivateplay.com/wp-content/uploads/2013/04/motivation.jpg',
     caption: 'Generate random positive and motivational quotes!',
