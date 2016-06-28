@@ -33,7 +33,7 @@ $(document).ready(function() {
           14: ['Don’t worry about failures, worry about the chances you miss when you don’t even try.', 'Jack Canfield'],
           15: ['Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending', 'Carl Bard'],
           16: ['The only way of finding the limits of the possible is by going beyond them into the impossible.', 'Arthur C. Clarke'],
-          17: ['Speak less than you know; have more than you show.', 'William Shakespeare'],
+          17: ['Speak less than you know. Have more than you show.', 'William Shakespeare'],
           18: ['Many of life’s failures are experienced by people who did not realize how close they were to success when they gave up.', 'Thomas Edison'],
           19: ['Education costs money. But then so does ignorance', 'Sir Claus Moser'],
           20: ['The journey of a thousand miles begins with one step.', 'Lao Tzu'],
@@ -65,6 +65,8 @@ $(document).ready(function() {
         $('#randomQuote').text("\"" + quotes[randomQuoteNumber][0] + "\"");
         $('#randomAuthor').text("- " +quotes[randomQuoteNumber][1]);
   }
+
+
 
   
   // function nextRandomQuote () {
@@ -138,10 +140,15 @@ $(document).ready(function() {
   }
   
   $('#twitterShare').hide();
+  $('#extra').hide();
    $('#facebookShare').hide();
   
   function tweetAppear () {
     $('#twitterShare').show();
+  }
+
+  function extraAppear () {
+    $('#extra').show();
   }
   
   function facebookAppear () {
@@ -152,6 +159,8 @@ $(document).ready(function() {
   $('#nextQuote').click(colorChange);
   $('#nextQuote').click(tweetAppear);
   $('#nextQuote').click(facebookAppear);
+  $('#nextQuote').click(extraAppear);
+  
   
   
   
@@ -161,7 +170,7 @@ $(document).ready(function() {
  // Twitter Share
   
 $('#twitterShare').on("click", function() {
-    var myUrl = 'https://twitter.com/intent/tweet?text=' + randomQuote + ' ' + randomAuthor;
+    var myUrl = 'https://twitter.com/intent/tweet?text=' + "\"" + randomQuote + "\"" +  ' ' + "- " + randomAuthor;
     window.open(myUrl, 'twitter');
     return false;
   });
@@ -186,10 +195,10 @@ $('#twitterShare').on("click", function() {
     method: 'feed',
     name: 'Random Quote Machine',
     link: 'https://djuarez94.github.io/randomQuoteMachine/',
-    picture: 'http://www.groupstudy.in/img/logo3.jpeg',
-    caption: 'Generate random famous quotes from famous movies and people.',
-    description: "Want to view a random famous quote and share it with your friends and family? Try out my Random Quote Machine!",
-    message: "hey"
+    picture: 'http://www.motivateplay.com/wp-content/uploads/2013/04/motivation.jpg',
+    caption: 'Generate random positive and motivational quotes!',
+    description: "Having a hard day? Or you feel as tho you are close to giving up? Well don't! Use my Positive Quote Machine to turn that negativity into positivity.",
+    message: ""
     });
 
   });

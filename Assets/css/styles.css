@@ -11,7 +11,7 @@ html {
   padding-bottom: 2%;
   border-radius: .5em;
   color: #A4EDB1;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 h1 {
@@ -46,6 +46,11 @@ button {
   padding-right: 5%;
   padding-left: 5%;
   font-size: 1.5em;
+}
+
+#extra {
+  font-size: 1.3em;
+  padding-top: 5%;
 }
 
 #randomAuthor {
