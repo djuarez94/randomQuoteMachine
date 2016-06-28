@@ -29,7 +29,7 @@ $(document).ready(function() {
           10: ['The great thing in this world is not so much where you stand, as in what direction you are moving.', 'Oliver Wendell Holmes'],
           11: ['Every truth passes through three stages before it is recognized. In the first, it is ridiculed. In the second, it is opposed. In the third, it is regarded as self evident.', 'Arthur Schopenhauer'],
           12: ['Either you run the day, or the day runs you.', 'Jim Rohn'],
-          13: ['The difference between a successful person and others is not lack of strength not a lack of knowledge but rather a lack of will.', 'Vince Lombardi'],
+          13: ['The difference between a successful person and others is not lack of strength, not a lack of knowledge, but rather a lack of will.', 'Vince Lombardi'],
           14: ['Don’t worry about failures, worry about the chances you miss when you don’t even try.', 'Jack Canfield'],
           15: ['Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending', 'Carl Bard'],
           16: ['The only way of finding the limits of the possible is by going beyond them into the impossible.', 'Arthur C. Clarke'],
