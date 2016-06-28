@@ -1,0 +1,59 @@
+html {
+  background-color: #A4EDB1; 
+}
+
+.quoteBox {
+  background-color: #fff;
+  text-align: center;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: .5em;
+  color: #A4EDB1;
+  margin-top: 10%;
+}
+
+h1 {
+  border-bottom: solid #A4EDB1 1px;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-bottom: 3%;
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  background-color: #A4EDB1;
+  padding: 2% 2% 2% 2%;
+  border-radius: .5em;
+  color: #fff;
+  border: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: 5%;
+}
+
+#myName {
+  color: #fff;
+  padding-top: 0%;
+  text-align: center;
+}
+
+#randomQuote{
+  text-align: center;
+  font-size: 2em;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 1.5em;
+}
+
+#randomAuthor {
+  font-size: 1.2em;
+  text-align: right;
+  padding-right: 15%;
+}
+
+/* #twitterShare {
+  opacity: 0;
+} */
