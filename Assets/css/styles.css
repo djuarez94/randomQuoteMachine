@@ -69,32 +69,33 @@ button {
 -------------------------*/
 
 
-/*@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
   h1 {
-    font-size: 3em;
+    font-size: 1em;
 }
 
 .quoteBox {
-  margin-right: 10%;
-  margin-left: 10%;
-  
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 3em;
 }
 
 #randomQuote{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2.3em;
   padding-top: 5%;
   padding-right: 5%;
-  padding-left: 5%; 
+  padding-left: 5%;
+  font-size: 3em; 
 }
 
 #myName {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
 #randomAuthor {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 #extra {
@@ -103,9 +104,8 @@ button {
 }
 
 button {
-  font-size: 1em;
-  padding: 2% 2% 2% 2%;
+  font-size: 1.5em;
 }
 
 
-}*/
+}
