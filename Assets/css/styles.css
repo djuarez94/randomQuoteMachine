@@ -75,7 +75,12 @@ button {
   margin-left: 0%;
   padding-bottom: 3%;
   font-family: Helvetica, sans-serif;
-  font-size: 7em;
+  font-size: 10em;
+}
+
+.quoteBox {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 #randomQuote{
@@ -87,7 +92,7 @@ button {
   font-size: 3em; 
 }
 
-#myName { 
+#myName {
     font-size: 2em;
   }
 
