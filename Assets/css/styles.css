@@ -71,8 +71,8 @@ button {
 
   h1 {
   border-bottom: solid #A4EDB1 1px;
-  margin-right: 0%;
-  margin-left: 0%;
+  margin-right: 10%;
+  margin-left: 10%;
   padding-bottom: 3%;
   font-family: Helvetica, sans-serif;
   font-size: 5em;
@@ -81,6 +81,7 @@ button {
 .quoteBox {
   margin-right: 0px;
   margin-left: 0px;
+  width: 100%;
 }
 
 #randomQuote{
