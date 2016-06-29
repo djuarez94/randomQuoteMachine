@@ -12,9 +12,6 @@ html {
   border-radius: .5em;
   color: #A4EDB1;
   margin-top: 3%;
-
-  max-width: 100%;
-  max-height: 100%;
 }
 
 h1 {
@@ -70,7 +67,7 @@ button {
 /*MOBILE
 -------------------------*/
 
-/*@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
   h1 {
   border-bottom: solid #A4EDB1 1px;
@@ -108,4 +105,4 @@ button {
 }
 
 
-}*/
+}
