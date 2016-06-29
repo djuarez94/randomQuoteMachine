@@ -5,8 +5,8 @@ html {
 .quoteBox {
   background-color: #fff;
   text-align: center;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 0px;
+  margin-left: 0px;
   padding-top: 2%;
   padding-bottom: 2%;
   border-radius: .5em;
