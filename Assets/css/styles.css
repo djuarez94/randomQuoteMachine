@@ -31,7 +31,7 @@ button {
   border: none;
   font-family: Helvetica, sans-serif;
   font-size: 3em;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 #myName {
@@ -65,41 +65,36 @@ button {
   padding-right: 15%;
 }
 
-/*MOBILE
+/*DESKTOP
 -------------------------*/
 
-/*@media only screen and (max-width: 768px) {
+
+@media only screen and (min-width: 768px) {
 
   h1 {
-  border-bottom: solid #A4EDB1 1px;
-  margin-right: 10%;
-  margin-left: 10%;
-  padding-bottom: 3%;
-  font-family: Helvetica, sans-serif;
-  font-size: 5em;
+    font-size: 2.5em;
 }
 
 .quoteBox {
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 5em;
+  margin-right: 10%;
+  margin-left: 10%;
+  
 }
 
 #randomQuote{
   text-align: center;
-  font-size: 2.3em;
+  font-size: 1.5em;
   padding-top: 5%;
   padding-right: 5%;
-  padding-left: 5%;
-  font-size: 3em; 
+  padding-left: 5%; 
 }
 
 #myName {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
 #randomAuthor {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 #extra {
@@ -108,8 +103,9 @@ button {
 }
 
 button {
-  font-size: 1.5em;
+  font-size: 1em;
+  padding: 2% 2% 2% 2%;
 }
 
 
-}*/
+}
