@@ -67,7 +67,7 @@ button {
 /*MOBILE
 -------------------------*/
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
   h1 {
     font-size: 1.5em;
   }
@@ -79,6 +79,6 @@ button {
 .quoteBox {
   margin-right: 10%;
   margin-left: 10%;
-}
+}*/
 
 }
