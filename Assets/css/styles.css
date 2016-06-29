@@ -93,4 +93,22 @@ button {
   font-size: 3em; 
 }
 
+#myName {
+    font-size: 2em;
+  }
+
+#randomAuthor {
+  font-size: 2em;
+}
+
+#extra {
+  font-size: 1.5em;
+  padding-top: 5%;
+}
+
+button {
+  font-size: 1.5em;
+}
+
+
 }
