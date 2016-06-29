@@ -68,17 +68,21 @@ button {
 /*DESKTOP
 -------------------------*/
 
-
-@media only screen and (min-width: 768px) {
+/*@media only screen and (max-width: 768px) {
 
   h1 {
-    font-size: 1em;
+  border-bottom: solid #A4EDB1 1px;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-bottom: 3%;
+  font-family: Helvetica, sans-serif;
+  font-size: 5em;
 }
 
 .quoteBox {
   margin-right: 0px;
   margin-left: 0px;
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 #randomQuote{
@@ -108,4 +112,4 @@ button {
 }
 
 
-}
+}*/
