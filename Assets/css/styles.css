@@ -68,15 +68,10 @@ button {
 /*DESKTOP
 -------------------------*/
 
-/*@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
 
   h1 {
-  border-bottom: solid #A4EDB1 1px;
-  margin-right: 10%;
-  margin-left: 10%;
-  padding-bottom: 3%;
-  font-family: Helvetica, sans-serif;
-  font-size: 5em;
+  font-size: 3.5em;
 }
 
 .quoteBox {
@@ -112,4 +107,4 @@ button {
 }
 
 
-}*/
+}
