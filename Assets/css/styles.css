@@ -64,6 +64,15 @@ button {
   padding-right: 15%;
 }
 
-/* #twitterShare {
-  opacity: 0;
-} */
+/*MOBILE
+-------------------------*/
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #randomQuote{
+  font-size: 1.3em; 
+}
+}
