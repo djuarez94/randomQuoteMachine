@@ -1,5 +1,14 @@
 $(document).ready(function() {
 
+/*-------------------------------------
+| Beginning Fade Effect
+-------------------------------------*/
+$('.quoteBox').animate({'opacity' :1}, 1000);
+$('#title').delay(700).animate({'opacity' :1}, 1000);
+$('#randomQuote').delay(1500).animate({'opacity' :1}, 1000);
+$('#nextQuote').delay(2300).animate({'opacity' :1}, 1000);
+$('#myName').delay(3300).animate({'opacity' :1}, 1000);
+
   var randomQuote = '';
   var randomAuthor = '';
   
