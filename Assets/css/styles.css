@@ -62,11 +62,11 @@ button {
 #facebookShare {
   margin-top: 0%;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 2em;
 }
 
 #twitterShare {
-  font-size: 1.7em;
+  font-size: 2em;
 }
 
 #randomAuthor {
@@ -82,7 +82,7 @@ button {
 
 #nextQuote {
   opacity: 0;
-  font-size: 1.7em;
+  font-size: 2em;
 }
 
 /*DESKTOP
