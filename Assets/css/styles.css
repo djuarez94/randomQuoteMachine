@@ -1,5 +1,5 @@
 html {
-  background-color: #A4EDB1; 
+  background-color: #ED5A03; 
 }
 
 .quoteBox {
@@ -10,13 +10,13 @@ html {
   padding-top: 2%;
   padding-bottom: 2%;
   border-radius: .5em;
-  color: #A4EDB1;
+  color: #ED5A03;
   margin-top: 3%;
   opacity: 0;
 }
 
 h1 {
-  border-bottom: solid #A4EDB1 1px;
+  border-bottom: solid #ED5A03 1px;
   margin-right: 20%;
   margin-left: 20%;
   padding-bottom: 3%;
@@ -25,7 +25,7 @@ h1 {
 }
 
 button {
-  background-color: #A4EDB1;
+  background-color: #ED5A03;
   padding: 3% 3% 3% 3%;
   border-radius: .5em;
   color: #fff;
