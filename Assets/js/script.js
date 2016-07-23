@@ -205,8 +205,8 @@ $('#twitterShare').on("click", function() {
     name: 'David\'s Positive Quote Machine',
     link: 'https://djuarez94.github.io/randomQuoteMachine/',
     picture: 'http://www.motivateplay.com/wp-content/uploads/2013/04/motivation.jpg',
-    caption: 'Yea I created this...',
-    description: "Generate random positive and motivational quotes with just a click away!",
+    caption: 'Yea, I made this...',
+    description: "Generate positive and motivational quotes with just a click away!",
     message: ""
     });
 
