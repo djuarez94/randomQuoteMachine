@@ -8,4 +8,4 @@ The languages used for this project are:
 - __jQuery__
 - __Javascript__
 
-![Imgur](http://i.imgur.com/6Pl9LD9.gifv)
+![Imgur](http://i.imgur.com/6Pl9LD9.gif)
