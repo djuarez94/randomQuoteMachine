@@ -7,3 +7,5 @@ The languages used for this project are:
 - __CSS__
 - __jQuery__
 - __Javascript__
+
+![Imgur](http://i.imgur.com/6Pl9LD9.gifv)
